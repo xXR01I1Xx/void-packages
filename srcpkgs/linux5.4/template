@@ -1,6 +1,6 @@
 # Template file for 'linux5.4'
 pkgname=linux5.4
-version=5.4.87
+version=5.4.92
 revision=1
 wrksrc="linux-${version}"
 short_desc="Linux kernel and modules (${version%.*} series)"
@@ -8,7 +8,7 @@ maintainer="Helmut Pozimski <helmut@pozimski.eu>"
 license="GPL-2.0-only"
 homepage="https://www.kernel.org"
 distfiles="https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-${version}.tar.xz"
-checksum=6a34e93e2e84bb645155124962307ad9d3646124f43838d087209ed4ea595c31
+checksum=c0937ff98824c4b14cfea68a04340e0beb3c00f1cc02984daf2f3bdf542394fd
 python_version=3
 patch_args="-Np1"
 
